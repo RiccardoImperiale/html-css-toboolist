@@ -6,5 +6,40 @@
     --tobo-red: #eb5953;
     --tobo-pink: #d863a1;
     --tobo-orange: #f29e33;
+    --tobo-lightgray: #f6f8f9;
 }
 
+* {
+    margin: 0;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.logo_icon {
+    vertical-align: middle;
+}
+
+.logo_text {
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+
+main {
+    background-color: var(--tobo-lightgray);
+    padding: 3rem;
+}
+
+.todo {
+    background-color: red;
+    width: 785px;
+    height: 580px;
+    margin: auto;
+
+}
