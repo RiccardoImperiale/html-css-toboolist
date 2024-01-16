@@ -1,0 +1,13 @@
+:root {
+    --tobo-purple: #9c72e4;
+    --tobo-blue: #47adf1;
+    --tobo-green: #b0c926;
+    --tobo-watergreen: #64c0a9;
+    --tobo-red: #eb5953;
+    --tobo-pink: #d863a1;
+    --tobo-orange: #f29e33;
+}
+
+body{
+    background-color: var(--tobo-blue);
+}
