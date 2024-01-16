@@ -37,9 +37,39 @@ main {
 }
 
 .todo {
-    background-color: red;
+    background-color: white;
     width: 785px;
-    height: 580px;
+    /* height: 580px; */
     margin: auto;
+    border-radius: .5rem;
+}
 
+.todo_buttons{
+    border-bottom: .08rem solid rgb(219, 219, 219);
+    padding: 1.5rem 4rem .5rem;
+    /* background-color: #64c0a9; */
+}
+
+.todos{
+    padding: 1.5rem 4rem .5rem;
+
+}
+
+button{
+    padding: .5rem .5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .3rem;
+}
+
+.add_task_btn {
+    background-color: var(--tobo-blue);
+    border: none;
+    color: white;
+}
+
+.add_section_btn {
+    background-color: white;
+    border: .1rem solid lightgray;
+    color: rgb(181, 181, 181);
 }
