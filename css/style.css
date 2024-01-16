@@ -7,12 +7,22 @@
     --tobo-pink: #d863a1;
     --tobo-orange: #f29e33;
     --tobo-lightgray: #f6f8f9;
+    --tobo-darkgray: #444851;
 }
 
 * {
     margin: 0;
     font-family: sans-serif;
+    color: var(--tobo-darkgray);
 }
+
+h2{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+/* HEADER STYLE --------------------------------------------> */
 
 .logo {
     padding: 1rem;
@@ -23,37 +33,10 @@
 }
 
 .logo_text {
-
+    color: #041931;
     vertical-align: middle;
     font-weight: bold;
     font-size: 2rem;
-}
-
-
-
-
-main {
-    background-color: var(--tobo-lightgray);
-    padding: 3rem;
-}
-
-.todo {
-    background-color: white;
-    width: 785px;
-    /* height: 580px; */
-    margin: auto;
-    border-radius: .5rem;
-}
-
-.todo_buttons {
-    border-bottom: .08rem solid rgb(219, 219, 219);
-    padding: 1.5rem 4rem .5rem;
-    /* background-color: #64c0a9; */
-}
-
-.todos {
-    padding: 3rem 4rem;
-
 }
 
 button {
@@ -75,51 +58,75 @@ button {
     color: rgb(181, 181, 181);
 }
 
-section{
+
+/* MAIN STYLE --------------------------------------------> */
+
+main {
+    background-color: var(--tobo-lightgray);
+    padding: 3rem;
+}
+
+.todo {
+    background-color: white;
+    width: 785px;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.todo_buttons {
+    border-bottom: .08rem solid rgb(239, 239, 239);
+    padding: 1.5rem 4rem .5rem;
+}
+
+.todos {
+    padding: 3rem 4rem .5rem 4rem;
+}
+
+section {
     margin-bottom: 3rem;
 }
 
 .task_section {
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-#check {
+.icon{
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    line-height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    margin-right: .2rem;
+    font-size: .8rem;
+}
+
+.check {
     color: var(--tobo-watergreen);
     border: .1rem solid var(--tobo-watergreen);
-    border-radius: 50%;
-    aspect-ratio: 1 / 1;
-    text-align: center;
-    line-height: 1.2rem;
-    width: 1.2rem;
-    display: inline-block;
-    margin-right: .5rem;
 }
 
-#cross {
+.cross {
     color: var(--tobo-red);
     border: .1rem solid var(--tobo-red);
-    border-radius: 50%;
-    aspect-ratio: 1 / 1;
-    text-align: center;
-    line-height: 1.2rem;
-    width: 1.2rem;
-    display: inline-block;
-    margin-right: .5rem;
 }
 
 .todo_title {
-    font-size: 1.25rem;
+    font-size: 1rem;
     vertical-align: middle;
 }
 
 .category {
     margin-left: .2rem;
     vertical-align: middle;
-    font-size: .8rem;
+    font-size: .6rem;
     color: white;
     padding: .5rem 1rem;
     border-radius: 1rem;
 }
+
+
+/* TASK CATEGORY COLORS ---------------------------------------> */
 
 .editorial {
     background-color: var(--tobo-blue);
@@ -141,6 +148,6 @@ section{
     background-color: var(--tobo-pink);
 }
 
-.sales{
+.sales {
     background-color: var(--tobo-green);
 }
